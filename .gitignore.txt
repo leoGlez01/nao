@@ -1,0 +1,14 @@
+# Scripts SQL
+*.sql
+scripts SQL
+
+# Other
+.idea
+.vscode
+_pycache_
+
+# Imagenes y recursos
+iconos
+imagenes
+*.png
+*.txt

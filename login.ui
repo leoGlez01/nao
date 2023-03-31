@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <italic>false</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="wid_general" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>501</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Harrington</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#boton_entrar{
+border:2px solid rgb(40,180,135);
+color:rgba(255,255,255,230);
+border-radius:20px;
+}
+QPushButton#boton_entrar:hover{
+background-color:rgb(40,180,135);
+color:rgb(0,0,0);
+}
+QPushButton#boton_cerrar{
+background-color:rgba(0,0,0,0);
+color:rgb(40,180,135);
+border:none;
+}
+QPushButton#boton_cerrar:hover{
+color:rgb(255,0,0);
+}
+</string>
+   </property>
+   <widget class="QLabel" name="label_fondo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>441</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/fondo/imagenes/logo1.jpeg);
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_fondo2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>411</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0.7);
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_contenido">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>79</y>
+      <width>380</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0.1);
+border-radius:15px;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titulo">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(40,180,135);
+font:Harrington;</string>
+    </property>
+    <property name="text">
+     <string>Bienvenidos a Bordo!!!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_usuario">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgb(40,180,135);
+color:rgba(255,255,255,230);
+padding-bottom:1px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>   Nombre de Usuario</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="entry_contra">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>290</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid rgb(40,180,135);
+color:rgba(255,255,255,230);
+padding-bottom:1px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>   Contraseña</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boton_entrar">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>400</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ENTRAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boton_cerrar">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>40</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="fondo_log.qrc"/>
+ </resources>
+ <connections/>
+</ui>
